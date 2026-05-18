@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "e3fccf3a-62bf-4e22-afeb-9e57e9007b4d:build-test-module",
+  "visibility": "private",
+  "url": "https://github.com/cecilyViam/build-test-module",
+  "description": "Minimal module for testing viam-cloud-build end-to-end",
+  "entrypoint": "bin/build-test-module",
+  "build": {
+    "build": "make build",
+    "path": "bin/build-test-module",
+    "arch": ["linux/amd64", "linux/arm64"]
+  }
+}
