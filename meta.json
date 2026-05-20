@@ -6,7 +6,7 @@
   "description": "Minimal module for testing viam-cloud-build end-to-end",
   "entrypoint": "bin/build-test-module",
   "build": {
-    "build": "make build && sleep infinity",
+    "build": "make build",
     "path": "bin/build-test-module",
     "arch": ["linux/amd64", "linux/arm64"]
   }
